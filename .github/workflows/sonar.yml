@@ -30,4 +30,4 @@ jobs:
         run: |
           mvn clean verify sonar:sonar \
             -Dsonar.host.url=http://localhost:9000 \
-            -Dsonar.login=${{ secrets.SONAR_TOKEN }}
+            -Dsonar.login=sqp_c91376422d8293629c30c19711246a2a0e11198b
